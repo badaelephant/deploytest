@@ -1,7 +1,7 @@
 EXECUTION_PATH=$(pwd)
 SHELL_SCRIPT_PATH=$(dirname $0)
-BRANCH=${1}
-PROFILE=${2}
+BRANCH=${1:-master}
+PROFILE=${2:-prod}
 
 
 
