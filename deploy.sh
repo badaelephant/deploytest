@@ -3,15 +3,6 @@ SHELL_SCRIPT_PATH=$(dirname $0)
 BRANCH=${1:-master}
 PROFILE=${2:-prod}
 
-
-
-
-
-
-
-
-
-
 function pull() {
   echo -e ""
   echo -e ">> Pull Request 🏃♂️ "
@@ -28,3 +19,5 @@ function check_df() {
     exit 0
   fi
 }
+
+check_df;
